@@ -1,0 +1,41 @@
+VAR : 
+
+a,i, res: interger 
+
+debut 
+
+Ecrire ("Entre le nombre a: " )
+
+lire (a): //5
+
+pour (i allant de 0 à 10) step 1 Faire 
+
+res :=a*i
+
+Ecrire (a,"*",i,"=",res);
+
+finpour
+
+
+BEGIN
+
+list :=[4,86,8,0,4;12]
+
+FOR i from 0 to list.length-1 step 1 DO 
+READ(list[i])
+ENDFOR 
+
+min := list[0]
+max :=list[0]
+FOR i from 0 to list.length-1 step 1 DO
+
+
+if(list[i]<min) min := list[i]
+if(list[>max]) max := list[i]
+
+ENDFOR 
+
+write("le plus grand nombre est : " + max)
+write("le plus petit nomber est : " + min)
+
+END 
